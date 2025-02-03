@@ -9,23 +9,24 @@ public class Main {
         int codigo = 1;
 
         while (codigo == 1) {
-            double nota1 = sc.nextDouble();
-            while (nota1 < 0.0 || nota1 > 10.0) {
+            double x = sc.nextDouble();
+            while (x < 0 || x > 10) {
                 System.out.println("nota invalida");
-                nota1 = sc.nextDouble();
+                x = sc.nextDouble();
             }
 
-            double nota2 = sc.nextDouble();
-            while (nota2 < 0.0 || nota2 > 10.0) {
+            double y = sc.nextDouble();
+            while (y < 0 || y > 10) {
                 System.out.println("nota invalida");
-                nota2 = sc.nextDouble();
+                y = sc.nextDouble();
             }
 
-            double media = (nota1 + nota2) / 2;
+            double media = (x + y) / 2;
+
             System.out.printf("media = %.2f%n", media);
-
-            System.out.println("novo calculo (1- sim 2- nao)");
+            System.out.println("novo calculo (1-sim 2-nao)");
             codigo = sc.nextInt();
+
             while (codigo != 1 && codigo != 2) {
                 System.out.println("novo calculo (1-sim 2-nao)");
                 codigo = sc.nextInt();

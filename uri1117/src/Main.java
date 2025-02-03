@@ -7,22 +7,21 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        double nota1 = sc.nextDouble();
-        while (nota1 < 0.0 || nota1 > 10.0) {
+        double n1 = sc.nextDouble();
+        while (n1 < 0 || n1 > 10) {
             System.out.println("nota invalida");
-            nota1 = sc.nextDouble();
+            n1 = sc.nextDouble();
         }
 
-        double nota2 = sc.nextDouble();
-        while (nota2 < 0.0 || nota2 > 10.0) {
+        double n2 = sc.nextDouble();
+        while (n2 < 0 || n2 > 10) {
             System.out.println("nota invalida");
-            nota2 = sc.nextDouble();
+            n2 = sc.nextDouble();
         }
 
-        double media = (nota1 + nota2) / 2.0;
+        double media = (n1 + n2) / 2;
+
         System.out.printf("media = %.2f%n", media);
-
-
 
         sc.close();
     }

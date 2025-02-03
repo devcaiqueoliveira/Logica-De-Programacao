@@ -6,17 +6,17 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int valor = sc.nextInt();
-        double contValor = 0;
-        int valorFinal = 0;
+        int idade = sc.nextInt();
+        int cont = 0;
+        int idadeTot = 0;
 
-        while (valor >= 0) {
-            contValor += 1;
-            valorFinal += valor;
-            valor = sc.nextInt();
+        while (idade > 0) {
+            idadeTot += idade;
+            cont += 1;
+            idade = sc.nextInt();
         }
 
-        double media = valorFinal / contValor;
+        double media = (double) idadeTot / cont;
         System.out.printf("%.2f%n", media);
 
         sc.close();

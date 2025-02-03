@@ -7,17 +7,17 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int x = sc.nextInt();
-        int tot = 0;
+        int saida;
 
         while (x != 0) {
             if (x % 2 == 0) {
-                tot = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
-                System.out.println(tot);
+                saida = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
+                System.out.println(saida);
             }
-            else {
+            else  {
                 x = x + 1;
-                tot = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
-                System.out.println(tot);
+                saida = x + (x + 2) + (x + 4) + (x + 6) + (x + 8);
+                System.out.println(saida);
             }
             x = sc.nextInt();
         }

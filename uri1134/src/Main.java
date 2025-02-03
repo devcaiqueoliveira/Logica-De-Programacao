@@ -7,31 +7,28 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        int alcool = 0;
+        int entrada = sc.nextInt();
         int gasosa = 0;
+        int alcool = 0;
         int diesel = 0;
 
-        int tipo = sc.nextInt();
-
-        while (tipo != 4) {
-            if (tipo == 1) {
+        while (entrada != 4 ) {
+            if (entrada == 1) {
                 alcool += 1;
             }
-            else if (tipo == 2) {
+            else if(entrada == 2) {
                 gasosa += 1;
             }
-            else if ( tipo == 3) {
-                diesel += 3;
+            else if(entrada == 3) {
+                diesel += 1;
             }
+            entrada = sc.nextInt();
 
-            tipo = sc.nextInt();
         }
-
         System.out.println("MUITO OBRIGADO");
         System.out.println("Alcool: " + alcool);
         System.out.println("Gasolina: " + gasosa);
         System.out.println("Diesel: " + diesel);
-
 
         sc.close();
 
