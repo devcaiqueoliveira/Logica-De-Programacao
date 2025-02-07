@@ -6,12 +6,15 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        int n = sc.nextInt();
-        for (int i = 1; i <= n; i++) {
-            if (n % i == 0) {
-                System.out.println(i);
-            }
+        int quantia = 0;
+        String tipo;
+
+        for (int i = 0; i <= quantia; i++) {
+           quantia = sc.nextInt();
+           tipo = sc.next();
         }
+
+
 
         sc.close();
     }
