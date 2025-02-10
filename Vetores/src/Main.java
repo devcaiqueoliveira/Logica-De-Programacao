@@ -17,6 +17,24 @@ public class Main {
             height[i] = sc.nextDouble();
         }
 
+        double sum = 0.0;
+        for (int i = 0; i < n; i++) {
+            sum += height[i];
+        }
+
+        double media = sum / n;
+        System.out.printf("Altura media: %.2f%n", media);
+
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (age[i] < 16) {
+                count++;
+            }
+        }
+
+        double x = (double) count * 100.0 / n;
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%%n", x);
+
         sc.close();
 }
 }
