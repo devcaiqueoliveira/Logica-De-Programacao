@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad5618b4-58e4-4d36-bb87-21f458b579b6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -26,7 +26,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/devcaiqueoliveira/Logica-De-Programacao.git",
-    "accountId": "d1155b99-63d0-4e6a-a8cf-c65dc0bb3e78"
+    "accountId": "386f6fcb-1ad3-4677-bd8c-7090ac72a961"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -46,7 +46,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Estudos/Logica-De-Programacao/Primeiro"
+    "last_opened_file_path": "C:/Estudos/Logica-De-Programacao/EstruturasRepetitivas",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RunManager">

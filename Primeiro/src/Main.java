@@ -11,6 +11,7 @@ public class Main {
             soma += x;
             x = sc.nextInt();
         }
+
         System.out.println(soma);
 
         sc.close();
